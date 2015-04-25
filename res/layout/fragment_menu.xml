@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/optionsPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goOptions"
+        android:layout_marginBottom="10dip"
+        android:text="Options" />
+
+    <Button
+        android:id="@+id/butTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goTutorial"
+        android:layout_marginBottom="10dip"
+        android:text="Tutorial" />
+
+    <Button
+        android:id="@+id/butAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:onClick="goAbout"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/butQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:onClick="quitApp"
+        android:text="Quit" />
+
+</TableLayout>
